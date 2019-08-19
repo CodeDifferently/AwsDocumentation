@@ -1,7 +1,7 @@
 # HOSTING WITH S3
 ---
 
-###Prequisites
+### Prequisites
 
 * AWS Account
 * Domain name and DNS access
@@ -41,4 +41,6 @@ Next after applying policy
 
 1. Go to **Properties**
 2. Choose **Static Website Hosting**
-3. Choose first option *Use this bucket to host a website*
+3. Choose first option *Use this bucket to host a website* 
+4. In the **Index Document** box, type the name that you gave your index page then click save.
+5. Next go to your other bucket `example.com` and go to **Properties** and **Static Website Hosting** and choose the *Redirect requests* option
